@@ -44,7 +44,7 @@ body {
 body h1 {
   color: hsl(210, 10%, 33%);
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
   body h1 {
     font-size: 2.75rem;
   }
@@ -54,7 +54,7 @@ body h2 {
   font-size: 1.75rem;
   line-height: 1.2;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
   body h2 {
     font-size: 2.2rem;
   }
@@ -63,7 +63,7 @@ body h3 {
   color: hsl(210, 10%, 33%);
   font-size: 1.5rem;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
   body h3 {
     font-size: 1.5rem;
   }
@@ -72,7 +72,7 @@ body p {
   color: hsl(201, 11%, 66%);
   font-weight: 400;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
   body p {
     font-size: 1.1rem;
   }
@@ -89,13 +89,13 @@ body .snippets .snip-info {
 body .snippets .snip-side-info {
   text-align: center;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .snippets .snip-side-info {
     text-align: left;
     padding-inline: 3em 9em;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .workflow .mid p {
     font-size: 0.938rem;
   }
@@ -125,7 +125,7 @@ body header p {
   width: 99%;
   padding-bottom: 3em;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body header p {
     max-width: 650px;
   }
@@ -139,17 +139,17 @@ body .snippets h2 {
 body .snippets .snip-info {
   margin-bottom: 95px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .snippets .snip-info {
     max-width: 700px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .snippets .snip-hero {
     display: flex;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .snippets .snip-hero img {
     transform: translateX(-62px);
   }
@@ -166,7 +166,7 @@ body .access h2 {
 body .access p {
   padding-bottom: 5em;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .access p {
     padding-inline: 20em;
   }
@@ -177,7 +177,7 @@ body .workflow h2 {
 body .workflow .mid {
   margin-block: 6em 4em;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .workflow .mid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -201,7 +201,7 @@ body .workflow .icons {
   justify-content: center;
   gap: 3.5em;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .workflow .icons {
     flex-direction: row;
   }
@@ -218,7 +218,7 @@ body .get-app h2 {
 body .get-app p {
   padding-bottom: 3em;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body .get-app p {
     padding-inline: 20em;
   }
@@ -229,7 +229,7 @@ body footer {
   align-items: center;
   justify-content: center;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body footer {
     flex-direction: row;
     gap: 12em;
@@ -243,7 +243,7 @@ body footer .foot-links {
   align-items: center;
   flex-direction: column;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body footer .foot-links {
     flex-direction: row;
     align-items: center;

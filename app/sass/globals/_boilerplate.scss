@@ -20,7 +20,7 @@ body {
 			width: 99%;
 			padding-bottom: 3em;
 
-			@include a.break(1000px) {
+			@include a.break(1200px) {
 				max-width: 650px;
 			}
 		}
@@ -36,18 +36,18 @@ body {
 		.snip-info {
 			margin-bottom: 95px;
 
-			@include a.break(1000px) {
+			@include a.break(1200px) {
 				max-width: 700px;
 			}
 		}
 
 		.snip-hero {
-			@include a.break(1000px) {
+			@include a.break(1200px) {
 				display: flex;
 			}
 
 			img {
-				@include a.break(1000px) {
+				@include a.break(1200px) {
 					transform: translateX(-62px);
 				}
 			}
@@ -69,7 +69,7 @@ body {
 		p {
 			padding-bottom: 5em;
 
-			@include a.break(1000px) {
+			@include a.break(1200px) {
 				padding-inline: 20em;
 			}
 		}
@@ -83,7 +83,7 @@ body {
 		.mid {
 			margin-block: 6em 4em;
 
-			@include a.break(1000px) {
+			@include a.break(1200px) {
 				display: grid;
 				grid-template-columns: 1fr 1fr 1fr;
 				padding-inline: 7em;
@@ -99,11 +99,6 @@ body {
 				h3 {
 					padding-bottom: 0.8em;
 				}
-
-				p {
-					@include a.break(1000px) {
-					}
-				}
 			}
 		}
 
@@ -114,7 +109,7 @@ body {
 			justify-content: center;
 			gap: 3.5em;
 
-			@include a.break(1000px) {
+			@include a.break(1200px) {
 				flex-direction: row;
 			}
 
@@ -134,7 +129,7 @@ body {
 		p {
 			padding-bottom: 3em;
 
-			@include a.break(1000px) {
+			@include a.break(1200px) {
 				padding-inline: 20em;
 			}
 		}
@@ -146,7 +141,7 @@ body {
 		align-items: center;
 		justify-content: center;
 
-		@include a.break(1000px) {
+		@include a.break(1200px) {
 			flex-direction: row;
 			gap: 12em;
 		}
@@ -159,7 +154,7 @@ body {
 			align-items: center;
 			flex-direction: column;
 
-			@include a.break(1000px) {
+			@include a.break(1200px) {
 				flex-direction: row;
 				align-items: center;
 				justify-content: left;
