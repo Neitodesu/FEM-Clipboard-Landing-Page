@@ -42,8 +42,13 @@ body {
 		}
 
 		.snip-hero {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
 			@include a.break(1200px) {
-				display: flex;
+				flex-direction: row;
 			}
 
 			img {
@@ -54,6 +59,10 @@ body {
 			.snip-side-info {
 				h3 {
 					padding-block: 2em 0.4em;
+				}
+
+				@include a.break(1200px) {
+					transform: translateY(-50px);
 				}
 			}
 		}
