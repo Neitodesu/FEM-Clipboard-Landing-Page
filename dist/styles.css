@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+body h1 {
+  color: hsl(210, 10%, 33%);
+}
+@media screen and (min-width: 800px) {
+  body h1 {
+    font-size: 2.75rem;
+  }
+}
+body h2 {
+  color: hsl(210, 10%, 33%);
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+@media screen and (min-width: 800px) {
+  body h2 {
+    font-size: 2.2rem;
+  }
+}
+body h3 {
+  color: hsl(210, 10%, 33%);
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 800px) {
+  body h3 {
+    font-size: 1.5rem;
+  }
+}
+body p {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+@media screen and (min-width: 800px) {
+  body p {
+    font-size: 1.1rem;
+  }
+}
+body header p {
+  max-width: 650px;
+}
+body .snippets {
+  text-align: center;
+}
+body .snippets .snip-info {
+  text-align: center;
+}
+body .snippets .snip-side-info {
+  text-align: center;
+}
+@media screen and (min-width: 1000px) {
+  body .snippets .snip-side-info {
+    text-align: left;
+    padding-inline: 3em 9em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body .workflow .mid p {
+    font-size: 0.938rem;
+  }
+}
+body footer {
+  text-align: center;
+}
+body footer li {
+  color: hsl(210, 10%, 33%);
+  font-size: 1.1rem;
+}
+
+body {
+  padding-inline: 32px;
+}
+body header {
+  margin-block: 8em 8em;
+}
+body header img {
+  padding-bottom: 64px;
+}
+body header h1 {
+  line-height: 1.2;
+  padding-bottom: 16px;
+}
+body header p {
+  width: 99%;
+  padding-bottom: 3em;
+}
+@media screen and (min-width: 1000px) {
+  body header p {
+    max-width: 650px;
+  }
+}
+body .snippets {
+  padding-bottom: 11em;
+}
+body .snippets h2 {
+  margin-bottom: 16px;
+}
+body .snippets .snip-info {
+  margin-bottom: 95px;
+}
+@media screen and (min-width: 1000px) {
+  body .snippets .snip-info {
+    max-width: 700px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body .snippets .snip-hero {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body .snippets .snip-hero img {
+    transform: translateX(-62px);
+  }
+}
+body .snippets .snip-hero .snip-side-info h3 {
+  padding-block: 2em 0.4em;
+}
+body .access {
+  margin-bottom: 7em;
+}
+body .access h2 {
+  padding-bottom: 12px;
+}
+body .access p {
+  padding-bottom: 5em;
+}
+@media screen and (min-width: 1000px) {
+  body .access p {
+    padding-inline: 20em;
+  }
+}
+body .workflow h2 {
+  padding-bottom: 0.4em;
+}
+body .workflow .mid {
+  margin-block: 6em 4em;
+}
+@media screen and (min-width: 1000px) {
+  body .workflow .mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-inline: 7em;
+    padding-bottom: 2.5em;
+  }
+}
+body .workflow .mid .card {
+  padding-bottom: 4em;
+}
+body .workflow .mid .card img {
+  padding-bottom: 2em;
+}
+body .workflow .mid .card h3 {
+  padding-bottom: 0.8em;
+}
+body .workflow .icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5em;
+}
+@media screen and (min-width: 1000px) {
+  body .workflow .icons {
+    flex-direction: row;
+  }
+}
+body .workflow .icons img {
+  transform: scale(0.9);
+}
+body .get-app {
+  margin-block: 11em 10em;
+}
+body .get-app h2 {
+  padding-bottom: 0.6em;
+}
+body .get-app p {
+  padding-bottom: 3em;
+}
+@media screen and (min-width: 1000px) {
+  body .get-app p {
+    padding-inline: 20em;
+  }
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1000px) {
+  body footer {
+    flex-direction: row;
+    gap: 12em;
+  }
+}
+body footer .logo-main {
+  transform: scale(0.45);
+}
+body footer .foot-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 1000px) {
+  body footer .foot-links {
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 4em;
+  }
+}
+body footer .foot-links li {
+  padding-block: 0.6em;
+}
+body footer .foot-links li:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+body footer .foot-icons {
+  padding-block: 3em 3em;
+  display: flex;
+  gap: 3em;
+}
+body footer .foot-icons .fa-square-facebook {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+}
+body footer .foot-icons .fa-square-facebook:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+body footer .foot-icons .fa-twitter {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+}
+body footer .foot-icons .fa-twitter:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+body footer .foot-icons .fa-instagram {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+}
+body footer .foot-icons .fa-instagram:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+
+button {
+  width: 300px;
+  padding: 16px 50px;
+  border-radius: 5em;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.125rem;
+  transition: all 0.1s ease-in;
+}
+@media screen and (min-width: 800px) {
+  button {
+    width: 260px;
+  }
+}
+
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+  border-bottom: 3px solid hsl(171, 66%, 34%);
+}
+.btn-ios:hover {
+  background-color: hsl(171, 66%, 48%);
+  transform: translateY(-2px);
+}
+
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: 3px solid hsl(233, 90%, 64%);
+}
+.btn-mac:hover {
+  background-color: hsl(233, 100%, 73%);
+  transform: translateY(-2px);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25em;
+  padding-bottom: 2.25em;
+}
+@media screen and (min-width: 800px) {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-r {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

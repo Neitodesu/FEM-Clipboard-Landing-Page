@@ -1,0 +1,84 @@
+@use '../utils/' as u;
+@use '../abstracts/' as a;
+
+body {
+	font-family: u.$ffMain;
+
+	h1 {
+		color: u.$colorHeading;
+
+		@include a.break(800px) {
+			font-size: 2.75rem;
+		}
+	}
+
+	h2 {
+		color: u.$colorHeading;
+		font-size: 1.75rem;
+		line-height: 1.2;
+
+		@include a.break(800px) {
+			font-size: 2.2rem;
+		}
+	}
+
+	h3 {
+		color: u.$colorHeading;
+		font-size: 1.5rem;
+
+		@include a.break(800px) {
+			font-size: 1.5rem;
+		}
+	}
+
+	p {
+		color: u.$colorText;
+		font-weight: 400;
+
+		@include a.break(800px) {
+			font-size: 1.1rem;
+		}
+	}
+
+	header {
+		p {
+			max-width: 650px;
+		}
+	}
+
+	.snippets {
+		text-align: center;
+
+		.snip-info {
+			text-align: center;
+		}
+
+		.snip-side-info {
+			text-align: center;
+
+			@include a.break(1000px) {
+				text-align: left;
+				padding-inline: 3em 9em;
+			}
+		}
+	}
+
+	.workflow {
+		.mid {
+			p {
+				@include a.break(1000px) {
+					font-size: 0.938rem;
+				}
+			}
+		}
+	}
+
+	footer {
+		text-align: center;
+
+		li {
+			color: u.$colorHeading;
+			font-size: 1.1rem;
+		}
+	}
+}

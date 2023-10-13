@@ -1,0 +1,53 @@
+@use '../utils/' as u;
+@use '../abstracts/' as a;
+
+button {
+	width: 300px;
+	padding: 16px 50px;
+	border-radius: 5em;
+	border: none;
+	color: #fff;
+	font-family: inherit;
+	font-weight: 600;
+	cursor: pointer;
+	font-size: 1.125rem;
+	transition: all 0.1s ease-in;
+
+	@include a.break(800px) {
+		width: 260px;
+	}
+}
+
+.btn-ios {
+	background-color: u.$cyan;
+	border-bottom: 3px solid u.$btn1;
+
+	&:hover {
+		background-color: u.$btn1Hover;
+		transform: translateY(-2px);
+	}
+}
+
+.btn-mac {
+	background-color: u.$grayBlue;
+	border-bottom: 3px solid u.$btn2;
+
+	&:hover {
+		background-color: u.$btn2Hover;
+		transform: translateY(-2px);
+	}
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.25em;
+	padding-bottom: 2.25em;
+
+	@include a.break(800px) {
+		display: flex;
+		flex-direction: row;
+	}
+}

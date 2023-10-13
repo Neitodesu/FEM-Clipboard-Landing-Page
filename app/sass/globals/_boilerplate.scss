@@ -1,0 +1,215 @@
+@use '../utils/' as u;
+@use '../abstracts/' as a;
+
+body {
+	padding-inline: 32px;
+
+	header {
+		margin-block: 8em 8em;
+
+		img {
+			padding-bottom: 64px;
+		}
+
+		h1 {
+			line-height: 1.2;
+			padding-bottom: 16px;
+		}
+
+		p {
+			width: 99%;
+			padding-bottom: 3em;
+
+			@include a.break(1000px) {
+				max-width: 650px;
+			}
+		}
+	}
+
+	.snippets {
+		padding-bottom: 11em;
+
+		h2 {
+			margin-bottom: 16px;
+		}
+
+		.snip-info {
+			margin-bottom: 95px;
+
+			@include a.break(1000px) {
+				max-width: 700px;
+			}
+		}
+
+		.snip-hero {
+			@include a.break(1000px) {
+				display: flex;
+			}
+
+			img {
+				@include a.break(1000px) {
+					transform: translateX(-62px);
+				}
+			}
+			.snip-side-info {
+				h3 {
+					padding-block: 2em 0.4em;
+				}
+			}
+		}
+	}
+
+	.access {
+		margin-bottom: 7em;
+
+		h2 {
+			padding-bottom: 12px;
+		}
+
+		p {
+			padding-bottom: 5em;
+
+			@include a.break(1000px) {
+				padding-inline: 20em;
+			}
+		}
+	}
+
+	.workflow {
+		h2 {
+			padding-bottom: 0.4em;
+		}
+
+		.mid {
+			margin-block: 6em 4em;
+
+			@include a.break(1000px) {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				padding-inline: 7em;
+				padding-bottom: 2.5em;
+			}
+
+			.card {
+				padding-bottom: 4em;
+				img {
+					padding-bottom: 2em;
+				}
+
+				h3 {
+					padding-bottom: 0.8em;
+				}
+
+				p {
+					@include a.break(1000px) {
+					}
+				}
+			}
+		}
+
+		.icons {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 3.5em;
+
+			@include a.break(1000px) {
+				flex-direction: row;
+			}
+
+			img {
+				transform: scale(0.9);
+			}
+		}
+	}
+
+	.get-app {
+		margin-block: 11em 10em;
+
+		h2 {
+			padding-bottom: 0.6em;
+		}
+
+		p {
+			padding-bottom: 3em;
+
+			@include a.break(1000px) {
+				padding-inline: 20em;
+			}
+		}
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		@include a.break(1000px) {
+			flex-direction: row;
+			gap: 12em;
+		}
+		.logo-main {
+			transform: scale(0.45);
+		}
+
+		.foot-links {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+
+			@include a.break(1000px) {
+				flex-direction: row;
+				align-items: center;
+				justify-content: left;
+				gap: 4em;
+			}
+
+			li {
+				padding-block: 0.6em;
+			}
+
+			li:hover {
+				cursor: pointer;
+				color: u.$cyan;
+			}
+		}
+
+		.foot-icons {
+			padding-block: 3em 3em;
+			display: flex;
+			gap: 3em;
+
+			.fa-square-facebook {
+				font-size: 2rem;
+				color: u.$colorHeading;
+
+				&:hover {
+					cursor: pointer;
+					color: u.$cyan;
+				}
+			}
+
+			.fa-twitter {
+				font-size: 2rem;
+				color: u.$colorHeading;
+
+				&:hover {
+					cursor: pointer;
+					color: u.$cyan;
+				}
+			}
+
+			.fa-instagram {
+				font-size: 2rem;
+				color: u.$colorHeading;
+
+				&:hover {
+					cursor: pointer;
+					color: u.$cyan;
+				}
+			}
+		}
+	}
+}
